@@ -2,6 +2,6 @@
 <aiml>
   <category>
     <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <template>I cannot process the last repsonse. Please enter something like "Hello or "I need career guidance".</template>
   </category>
 </aiml>
