@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>CYBERSECURITYQUESTION1</pattern>
+        <template>Does securing systems from malicious outsiders and analyzing event logs interest you? 
+        <button>
+	        <text>Yes</text>
+	        <postback>recommendcybersecurity</postback>
+	    </button>
+	    <button>
+	        <text>No</text>
+	        <postback>swequestion2</postback>
+	    </button>
+	    </template>
+    </category>
+    
+    
+    <category>
+        <pattern>RECOMMENDCYBERSECURITY</pattern>
+        <template>Based on your quiz, Cybersecurity seems like a great fit! Click the link below to learn more about Cybersecurity on Coursera.<br/><br/>
+        <link>
+            <text>Cybersecurity</text>
+            <url>https://www.coursera.org/articles/cybersecurity-analyst-job-guide</url>
+        </link>
+        </template>
+    </category>
+</aiml>

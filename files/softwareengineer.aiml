@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>SWEQUESTION1</pattern>
+        <template>Do you enjoy computer programming and practice continuous learning?
+        <button>
+	        <text>Yes, I love it!</text>
+	        <postback>swequestion2</postback>
+	    </button>
+	    <button>
+	        <text>I don't mind it, but I need a balance.</text>
+	        <postback>cloudengineerquestion1</postback>
+	    </button>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>SWEQUESTION2</pattern>
+        <template>Do you find algorithms and data structures fascinating?
+        <button>
+            <text>Yes</text>
+            <postback>recommendswe</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>cloudengineerquestion2</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>RECOMMENDSWE</pattern>
+        <template>Based on your quiz, Software Engineering seems like a great fit! Click the link below to learn more about Software Engineering on Coursera.<br/><br/>
+        <link>
+            <text>Software Engineering</text>
+            <url>https://www.coursera.org/articles/software-engineer</url>
+        </link>
+        </template>
+    </category>
+</aiml>

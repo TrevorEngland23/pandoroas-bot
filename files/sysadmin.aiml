@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>SYSADMINQUESTION1</pattern>
+        <template>Does maintaining existing systems and users sound interesting?
+        <button>
+	        <text>Yes</text>
+	        <postback>sysadminquestion2</postback>
+	    </button>
+	    <button>
+	        <text>No</text>
+	        <postback>cybersecurityquestion1</postback>
+	    </button>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>SYSADMINQUESTION2</pattern>
+        <template>Do you enjoy troubleshooting and providing technical support for non-technical peers?
+        <button>
+            <text>Yes</text>
+            <postback>recommendsysadmin</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>noresult</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>RECOMMENDSYSADMIN</pattern>
+        <template>Based on your quiz, System Administration seems like a great fit! Click the link below to learn more about System Administration on Coursera.<br/><br/>
+        <link>
+            <text>System Administration</text>
+            <url>https://www.coursera.org/articles/what-is-a-system-administrator-a-career-guide</url>
+        </link>
+        </template>
+    </category>
+</aiml>

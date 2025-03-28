@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>DATAENGINEERQUESTION1</pattern>
+        <template>Do you enjoy working with relational and non-relational databases?
+        <button>
+	        <text>Yes</text>
+	        <postback>dataengineerquestion2</postback>
+	    </button>
+	    <button>
+	        <text>No</text>
+	        <postback>sysadminquestion1</postback>
+	    </button>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>DATAENGINEERQUESTION2</pattern>
+        <template>Does building pipelines to gather data from various sources and analyzing that data sound fun?
+        <button>
+            <text>Yes</text>
+            <postback>recommenddataengineer</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>sysadminquestion2</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>RECOMMENDDATAENGINEER</pattern>
+        <template>Based on your quiz, Data Engineering seems like a great fit! Click the link below to learn more about Data Engineering on Coursera.<br/><br/>
+        <link>
+            <text>Data Engineering</text>
+            <url>https://www.coursera.org/articles/what-does-a-data-engineer-do-and-how-do-i-become-one</url>
+        </link>
+        </template>
+    </category>
+</aiml>

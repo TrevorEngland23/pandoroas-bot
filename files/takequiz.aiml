@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>START QUIZ</pattern>
+	    <template><delay>2</delay>Are you more interested in creating solutions to meet customer needs or maintaining existing systems and processes?
+	    <button>
+	        <text>Creating solutions</text>
+	        <postback>swequestion1</postback>
+	    </button>
+	    <button>
+	        <text>Maintaining existing systems</text>
+	        <postback>sysadminquestion1</postback>
+	    </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>NORESULT</pattern>
+	    <template>The result of the quiz is inconclusive. I recommend that you check out the career summaries after entering "career guidance" and explore the links there.</template>
+	</category>
+</aiml>
