@@ -2,7 +2,7 @@
 <aiml version="2.0">
     <category>
         <pattern>SYSADMINQUESTION1</pattern>
-        <template>Does maintaining existing systems and users sound interesting?
+        <template><delay>1</delay>Does maintaining existing systems and users sound interesting?
         <button>
 	        <text>Yes</text>
 	        <postback>sysadminquestion2</postback>
@@ -16,7 +16,7 @@
     
     <category>
         <pattern>SYSADMINQUESTION2</pattern>
-        <template>Do you enjoy troubleshooting and providing technical support for non-technical peers?
+        <template><delay>1</delay>Do you enjoy troubleshooting and providing technical support for non-technical peers?
         <button>
             <text>Yes</text>
             <postback>recommendsysadmin</postback>
@@ -30,7 +30,7 @@
     
     <category>
         <pattern>RECOMMENDSYSADMIN</pattern>
-        <template>Based on your quiz, System Administration seems like a great fit! Click the link below to learn more about System Administration on Coursera.<br/><br/>
+        <template><delay>2</delay>Based on your quiz, System Administration seems like a great fit! Given that maintaining existing systems and troubleshooting aligns with your interests, I believe this career field could work very well for you. Click the link below to learn more about System Administration on Coursera.<br/><br/>
         <link>
             <text>System Administration</text>
             <url>https://www.coursera.org/articles/what-is-a-system-administrator-a-career-guide</url>

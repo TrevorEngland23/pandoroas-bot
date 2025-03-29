@@ -2,7 +2,7 @@
 <aiml version="2.0">
     <category>
         <pattern>CLOUDENGINEERQUESTION1</pattern>
-        <template>Are you seeking a profession where domain knowledge in networking, operating systems, virtualization, programming, infrastructure, and databases is required? 
+        <template><delay>1</delay>Are you seeking a profession where domain knowledge in networking, operating systems, virtualization, programming, infrastructure, and databases is required? 
         <button>
 	        <text>Yes</text>
 	        <postback>cloudengineerquestion2</postback>
@@ -16,7 +16,7 @@
     
     <category>
         <pattern>CLOUDENGINEERQUESTION2</pattern>
-        <template>Does the idea of cloud computing intrigue you?
+        <template><delay>1</delay>Does the idea of cloud computing intrigue you?
         <button>
             <text>Yes</text>
             <postback>recommendcloudengineer</postback>
@@ -30,7 +30,7 @@
     
     <category>
         <pattern>RECOMMENDCLOUDENGINEER</pattern>
-        <template>Based on your quiz, Cloud Engineering seems like a great fit! Click the link below to learn more about Cloud Engineering on Coursera.<br/><br/>
+        <template><delay>2</delay>Based on your quiz, Cloud Engineering seems like a great fit! The next step in your journey to becoming a cloud engineer is picking a cloud provider and learning their services. Click the link below to learn more about Cloud Engineering on Coursera.<br/><br/>
         <link>
             <text>Cloud Engineering</text>
             <url>https://www.coursera.org/articles/cybersecurity-analyst-job-guide</url>

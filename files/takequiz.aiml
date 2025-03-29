@@ -2,7 +2,7 @@
 <aiml version="2.0">
 	<category>
 	    <pattern>START QUIZ</pattern>
-	    <template><delay>2</delay>Are you more interested in creating solutions to meet customer needs or maintaining existing systems and processes?
+	    <template><delay>1</delay>Are you more interested in creating solutions to meet customer needs or maintaining existing systems and processes?
 	    <button>
 	        <text>Creating solutions</text>
 	        <postback>swequestion1</postback>

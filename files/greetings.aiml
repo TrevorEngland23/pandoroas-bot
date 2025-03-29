@@ -18,8 +18,8 @@
     <template><delay>1</delay>Hi there! If you're looking for career guidance, enter "career guidance"</template>
 </category>
 <category>
-    <pattern>Career guidance</pattern>
-    <template><delay>2</delay>No problem! That's what I'm here for. Our records indicate your major is Computer Science. Would you like to read about five career choices, or take a short quiz to see which career suits you best?
+    <pattern>CAREER GUIDANCE</pattern>
+    <template><delay>1</delay>No problem! That's what I'm here for. Our records indicate your major is Computer Science. Would you like to read about five career choices, or take a short quiz to see which career suits you best?
 
     <button>
         <text>Read Summary</text>

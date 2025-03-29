@@ -2,7 +2,7 @@
 <aiml version="2.0">
     <category>
         <pattern>DATAENGINEERQUESTION1</pattern>
-        <template>Do you enjoy working with relational and non-relational databases?
+        <template><delay>1</delay>Do you enjoy working with relational and non-relational databases?
         <button>
 	        <text>Yes</text>
 	        <postback>dataengineerquestion2</postback>
@@ -16,7 +16,7 @@
     
     <category>
         <pattern>DATAENGINEERQUESTION2</pattern>
-        <template>Does building pipelines to gather data from various sources and analyzing that data sound fun?
+        <template><delay>1</delay>Does building pipelines to gather data from various sources and analyzing that data sound fun?
         <button>
             <text>Yes</text>
             <postback>recommenddataengineer</postback>
@@ -30,7 +30,7 @@
     
     <category>
         <pattern>RECOMMENDDATAENGINEER</pattern>
-        <template>Based on your quiz, Data Engineering seems like a great fit! Click the link below to learn more about Data Engineering on Coursera.<br/><br/>
+        <template><delay>2</delay>Based on your quiz, Data Engineering seems like a great fit! Given that you enjoy working with data and are interested in data pipelines, I believe you could be very happy in this career field. Click the link below to learn more about Data Engineering on Coursera.<br/><br/>
         <link>
             <text>Data Engineering</text>
             <url>https://www.coursera.org/articles/what-does-a-data-engineer-do-and-how-do-i-become-one</url>
