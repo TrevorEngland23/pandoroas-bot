@@ -9,7 +9,6 @@ This chatbot uses Artifical Intelligence Markup Language to create a rule-based 
 3.)	On the left-hand side, click “Directory”.  
 4.)	In the top-right, click the search bar and search for “CareerAdvisor.”  
 5.)	Find the CareerAdvisor bot with the description “Helps CS students pick a career.”  
-![image](https://github.com/user-attachments/assets/c1bebd53-3edc-428c-98dc-794c7555e3f4)    
 6.)	Select the orange icon in the bottom right-hand side of the screen to interact with the bot.  
 
 ## OR  
