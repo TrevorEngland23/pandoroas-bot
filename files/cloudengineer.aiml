@@ -33,7 +33,7 @@
         <template><delay>2</delay>Based on your quiz, Cloud Engineering seems like a great fit! The next step in your journey to becoming a cloud engineer is picking a cloud provider and learning their services. Click the link below to learn more about Cloud Engineering on Coursera.<br/><br/>
         <link>
             <text>Cloud Engineering</text>
-            <url>https://www.coursera.org/articles/cybersecurity-analyst-job-guide</url>
+            <url>https://www.coursera.org/articles/what-is-a-cloud-engineer</url>
         </link>
         </template>
     </category>

@@ -33,6 +33,21 @@
 </category>
 
 <category>
+    <pattern>^ CAREER GUIDANCE</pattern>
+    <template><delay>1</delay>No problem! That's what I'm here for. Our records indicate your major is Computer Science. Would you like to read about five career choices, or take a short quiz to see which career suits you best?
+
+    <button>
+        <text>Read Summary</text>
+        <postback>career summary</postback>
+    </button>
+    <button>
+        <text>Take Quiz</text>
+        <postback>start quiz</postback>
+    </button>
+    </template>
+</category>
+
+<category>
     <pattern>^ career</pattern>
     <template><delay>2</delay>Ah I see! Choosing a career is hard, probably. Mine was decided for me...<br/><br/>
     
