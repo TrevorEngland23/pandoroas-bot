@@ -15,6 +15,28 @@
 	</category>
 	<category>
 	    <pattern>NORESULT</pattern>
-	    <template>The result of the quiz is inconclusive. I recommend that you check out the career summaries after entering "career guidance" and explore the links there.</template>
+	    <template>The result of the quiz is inconclusive. I recommend that you check out the following links to read more about these career fields. If you still are not interested in any of these careers after your research, please make an appointment with your career advisor. <br/><br/>
+	    
+	     <link>
+                <text>Software Engineer</text>
+                <url>https://www.coursera.org/articles/software-engineer</url>
+            </link>
+            <link>
+                <text>Systems Administrator</text>
+                <url>https://www.coursera.org/articles/what-is-a-system-administrator-a-career-guide</url>
+            </link>
+            <link>
+                <text>Data Engineer</text>
+                <url>https://www.coursera.org/articles/what-does-a-data-engineer-do-and-how-do-i-become-one</url>
+            </link>
+            <link>
+                <text>Cybersecurity Analyst</text>
+                <url>https://www.coursera.org/articles/cybersecurity-analyst-job-guide</url>
+            </link>
+            <link>
+                <text>Cloud Engineer</text>
+                <url>https://www.coursera.org/articles/cybersecurity-analyst-job-guide</url>
+            </link>
+            </template>
 	</category>
 </aiml>
